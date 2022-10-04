@@ -1,0 +1,79 @@
+.nav{
+    float: right;
+    display: flex;
+    
+}
+h1{
+    color: blue;
+    background-color: aqua;
+}
+.button1{
+    /* display: inline;  */
+    padding: 10px;
+}
+.parent{
+    display: flex;
+    padding: 10px;
+}
+.child1{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    background-color:tomato;
+    padding: 10px;
+    margin: 10px;
+}
+.button{
+    width: 150px;
+    height: 20px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(4, 176, 244);
+    border-radius: 10px;
+    color: white;
+}
+p{
+    font-size: 30px;
+}
+.im{
+    /* float: right; */
+    width: 500px;
+}
+
+.container{
+    background-color: blueviolet;
+    display: flex;
+    color: white;
+    flex-wrap: wrap;
+}
+.item1{
+    width: 100px;
+    height: 50px;
+    text-align: center;
+    background-color: brown;
+    margin: 10px;
+}
+
+
+
+/* for mobile */
+@media screen and (min-width:300px) and (max-width:500px) {
+    .parent{
+        flex-direction: column;
+    }
+    .button{
+        background-color: blue;
+    }
+    .im{
+        width: 300px;
+    }
+    
+}
+/* for mobile */
+@media screen and (min-width:500px) and (max-width:900px) {
+ 
+    .button{
+        background-color: yellowgreen;
+    }
+    
+}
