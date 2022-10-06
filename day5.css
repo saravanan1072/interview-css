@@ -1,0 +1,53 @@
+.transition{
+    width: 150px;
+    height: 100px;
+    background-color: brown;
+    font-size: 30px;
+    transition: linear;
+    cursor: pointer;
+    transition-duration: 3s;
+}
+h1{
+    background-color: aqua;
+}
+.transition:hover{
+    width: 300px;
+}
+.transform{
+    width: 100px;
+    height: 100px;
+    background-color: blueviolet;
+  
+    transform: translateX(30px);
+    
+
+}
+.transform:hover{
+    transform: skewX(30deg);
+}
+.grid{
+    display: grid;
+    grid-template-columns: 200px 200px auto;
+    grid-template-rows: auto auto;
+    border: 3px solid tomato;
+    
+
+}
+.griditems{
+    background-color: rgb(52, 220, 14);
+    padding: 5px;
+    margin: 5px;
+}
+.one{
+    grid-row: 1/3;
+    grid-column: 1/3;
+}
+.two{
+    grid-row: 1/3;
+}
+.three{
+    grid-column: 1/4;
+}
+.four{
+    grid-column: 1/3;
+}
